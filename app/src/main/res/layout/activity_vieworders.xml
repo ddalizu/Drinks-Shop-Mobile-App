@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+  <!-- Title -->
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Customer Orders"
+      android:textColor="@color/orange"
+      android:textStyle="bold"
+      android:textSize="24sp"
+      android:gravity="center"
+      android:layout_marginBottom="8dp"
+      android:layout_gravity="center"   />
+
+  <!-- Labels Container -->
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal"
+      android:padding="8dp"
+      android:background="@color/orange">
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:minWidth="100dp"
+        android:paddingEnd="4dp"
+        android:text="Customer"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Branch"
+        android:textStyle="bold"
+        android:paddingEnd="4dp"
+        android:minWidth="80dp"/>
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Drink"
+        android:textStyle="bold"
+        android:paddingEnd="4dp"
+        android:minWidth="80dp"/>
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Price"
+        android:textStyle="bold"
+        android:paddingEnd="4dp"
+        android:minWidth="60dp"/>
+
+    <TextView
+        android:layout_width="10dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Quantity"
+        android:textStyle="bold"
+        android:paddingEnd="4dp"
+        android:minWidth="80dp"/>
+
+    <TextView
+        android:layout_width="10dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Total"
+        android:textStyle="bold"
+        android:paddingEnd="4dp"
+        android:minWidth="80dp"/>
+
+  </LinearLayout>
+
+  <!-- RecyclerView -->
+  <androidx.recyclerview.widget.RecyclerView
+      android:id="@+id/recyclerViewOrders"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content" />
+
+</LinearLayout>

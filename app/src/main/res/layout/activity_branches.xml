@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Branches">
+
+    <TextView
+        android:id="@+id/txt_welcomeTitle"
+        android:layout_width="406dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="4dp"
+        android:backgroundTint="#1B5787"
+        android:text="WELCOME"
+        android:textAlignment="center"
+        android:textColor="@color/orange"
+        android:textSize="35dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txt_branchesTitle"
+        android:layout_width="406dp"
+        android:layout_height="97dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="108dp"
+        android:backgroundTint="#1B5787"
+        android:text="Please select your preferred branch below: "
+        android:textColor="@color/orange"
+        android:textSize="32dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_mombasa"
+        android:layout_width="177dp"
+        android:layout_height="69dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="528dp"
+        android:backgroundTint="#1B5787"
+        android:text="Mombasa"
+        android:textColor="@color/orange"
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_HQ"
+        android:layout_width="175dp"
+        android:layout_height="67dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="248dp"
+        android:backgroundTint="#1B5787"
+        android:text="Headquarters"
+        android:textColor="@color/orange"
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_nairobi"
+        android:layout_width="178dp"
+        android:layout_height="68dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="344dp"
+        android:backgroundTint="#1B5787"
+        android:text="Nairobi"
+        android:textColor="@color/orange"
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_kisumu"
+        android:layout_width="177dp"
+        android:layout_height="69dp"
+        android:layout_marginStart="116dp"
+        android:layout_marginTop="436dp"
+        android:backgroundTint="#1B5787"
+        android:text="Kisumu"
+        android:textColor="@color/orange"
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/btn_logout"
+        android:layout_width="41dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="368dp"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/baseline_logout_24"
+        android:backgroundTint="#1B5787"
+        android:text="Logout"
+        android:textColor="@color/orange"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
